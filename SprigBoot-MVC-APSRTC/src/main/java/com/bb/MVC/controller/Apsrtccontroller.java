@@ -74,6 +74,6 @@ public class Apsrtccontroller {
 			@PostMapping("/delete")
 			public ResponseEntity<?> Delettsrtc(@RequestParam(name = "kajal") int id)  {
 				return new ResponseEntity<String>(serv.Delete(id),HttpStatus.BAD_REQUEST);
-				
+				hi
 			}
 }
